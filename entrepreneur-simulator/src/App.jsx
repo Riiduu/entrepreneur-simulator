@@ -1,4 +1,4 @@
-import SignIn from "./components/GoogleSignin/signIn"
+import SignIn from "./Pages/SignIn.jsx"
 
 
 function App() {
