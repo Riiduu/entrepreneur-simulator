@@ -1,12 +1,17 @@
+import {Routes, Route} from "react-router-dom";
 import SignIn from "./Pages/SignIn.jsx"
+import Home from "./Pages/Home.jsx";
 
 
 function App() {
   return (
-    <div className="bg-[url('./assets/bg/charts.jpg')] bg-no-repeat bg-cover bg-center bg-opacity-5">
-      <SignIn />
-    </div>
-  )
+          <div className="">
+              <Routes>
+                  <Route path="/" element={ <SignIn /> } />
+                  <Route path="/home" element={ <Home />}/>
+              </Routes>
+          </div>
+    )
 }
 
 export default App
