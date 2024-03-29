@@ -1,9 +1,11 @@
-function App() {
-  const [count, setCount] = useState(0)
+import SignIn from "./components/GoogleSignin/signIn"
 
+
+function App() {
   return (
     <>
-      <h1 className='text-green-500'>yeye</h1>
+    <h1>yeye nigga</h1>
+      <SignIn />
     </>
   )
 }
